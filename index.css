@@ -1,0 +1,23 @@
+.bg1,.bg2,.bg3,.bg4,.bg5,.bg6{
+    background-color: rgb(242,244,247);
+}
+::-webkit-scrollbar {
+    width: 8px;
+    height: 5px; /* Set the width of the scrollbar */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(0,113,190); /* Change the background color on hover */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(0,113,190); /* Set the background color of the scrollbar */
+    border-radius: 4px; /* Optional: Add rounded corners to the scrollbar handle */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Set the background color of the scrollbar track */
+}
